@@ -1,10 +1,6 @@
 import pandas as pd
-#import subprocess
-
-#subprocess.call([r'C:\SyncINV\renameData.bat'])
 
 storeSales = pd.read_excel(r'C:\SyncINV\dds.xls')
-
 shopifyInventory = pd.read_csv(r'C:\SyncINV\inventory_export.csv')
 
 changeCounter = 0
