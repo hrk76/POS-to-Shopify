@@ -13,3 +13,5 @@ Imports sales from POS and syncs with Shopify CSV inventory.
 4) Run syncData.bat
 
 5) Export inventory_export_u.csv to Shopify
+
+/!\ WARNING /!\ syncData.py is not very portable. User may have to edit lines 15 and 16 to fit their personal needs.
